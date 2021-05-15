@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0;
+    margin:0;
+     line: height 3px;
+    }
+.container{
+    margin:auto;
+    overflow: hidden;
+}
+header{
+    background-color: black;
+    color: #ffffff;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 0px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+nav ul li{
+  display:inline-flex;  
+  margin:0 20px;
+  padding:0px ;
+  
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+main{
+    background-color: #333;
+    padding:50px 200px 70px 200px;
+}
+#showcase{
+    background-color: #333;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    
+    line-height: 30px;
+    padding:50px 150px 50px 150px;
+}
+#showcase h1{
+    font-size: 50px;
+}
+
+
+#showcase p{
+    width:50%;
+}
+
+#form form{
+    background-color:whitesmoke;
+    color: black;
+    padding-left: 30px;
+    padding-top:15px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+#form button{
+    background-color: lawngreen;
+}
+
+
+footer{
+    text-align: center;
+    padding:20px 0 20px 0;
+}
+#information button{
+    color: blue;
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+
+   body{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding:0;
+        margin:0 20px 0 20px;
+         line: height 3px;
+        }
+    .container{
+        margin:auto;
+        overflow: hidden;
+    }
+    header{
+        background-color: black;
+        color: #ffffff;
+        padding-top: 0px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 20px;
+        margin-bottom: -20px;
+    }
+    
+    
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+    
+
+    }
+    #check{
+        display:none;
+        color: white;
+    }
+    
+    
+    nav ul li{
+        display: none;
+    }
+    main{
+        background-color: #333;
+        text-align: center;
+        padding:0px ;
+    
+    }
+    #showcase{
+        flex-direction: column;
+
+
+    }
+    
+    #showcase h1{
+        text-align:left;
+        font-size:50px;
+        line-height:70px;
+        width:277%;
+
+    }
+    #showcase p{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+   
+    
+    #form form{
+        background-color:whitesmoke;
+        color: black;
+        padding-left: 30px;
+        padding-top:15px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    #form button{
+        background-color: lawngreen;
+    }
+    
+    
+    footer{
+        text-align: center;
+        padding:20px 0 20px 0;
+    }
+    #information button{
+        color: blue;
+    }
+    
+    
+}
+@media only screen and (max-width:768px) {
+
+    body{
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         padding:0;
+         margin:0 20px 0 20px;
+          line-height: 5px;
+         }
+     .container{
+         margin:0;
+     }
+     header{
+         background-color: black;
+         color: #ffffff;
+         padding-top: 0px;
+         padding-left: 100px;
+         padding-right: 100px;
+         padding-bottom: 20px;
+         margin-bottom: -20px;
+         width:100%;
+     }
+     .checkbtn,.fas fa-bars{
+         color: white;
+         float: right;
+         cursor: pointer;
+         display: block;
+ 
+     }
+     #check{
+         display:none;
+         color: white;
+     }
+     
+     
+     nav ul li{
+         display: none;
+     }
+     main{
+         background-color: #333;
+         text-align: center;
+         padding:0px ;
+     
+     }
+     #showcase{
+         flex-direction: column;
+         width: 100%;
+
+         
+ 
+ 
+     }
+     
+     #showcase h1{
+         text-align:left;
+         font-size:50px;
+ 
+     }
+     #showcase p{
+         text-align:left;
+         padding-bottom: 20px;
+         width: 100%;
+     }
+     
+    
+     
+     #form form{
+         background-color:whitesmoke;
+         color: black;
+         padding-left: 30px;
+         padding-top:15px;
+         padding-bottom: 20px;
+         padding-right: 30px;
+     }
+     
+          
+     footer{
+         text-align: center;
+         line-height:30px;
+         padding:20px 0 20px 0;
+     }
+     #information button{
+         color: blue;
+     }
+ }
+ @media only screen and (max-width:480px) {
+
+    body{
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         padding:0;
+         margin:0;
+          line-height:3px;
+         }
+     .container{
+         margin:auto;
+         overflow: hidden;
+     }
+     header{
+         background-color: black;
+         color: #ffffff;
+         padding-left: -100px;
+
+     }
+     
+     
+     .checkbtn{
+         font-size: 30px;
+         color: white;
+         float: right;
+         cursor: pointer;
+         display: block;
+ 
+     }
+     #check{
+         display:none;
+         color: white;
+     }
+     
+     
+     nav ul li{
+         display: none;
+     }
+    
+     main{
+        background-color: #333;
+        text-align: center;
+        padding:0px ;
+    width: 100%;
+    }
+    #showcase{
+        flex-direction: column;
+        width: 100%;
+
+
+    }
+    
+    #showcase h1{
+        text-align:left;
+        font-size:40px;
+        line-height:70px;
+        width:277%;
+
+    }
+    #showcase p{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+   
+    
+    #form form{
+        background-color:whitesmoke;
+        color: black;
+        padding-left: 30px;
+        padding-top:15px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+        display: none;
+    }
+    #form button{
+        background-color: lawngreen;
+    }
+    
+    
+    footer{
+        text-align: center;
+        line-height:35px;
+        padding:20px 0 20px 0;
+    }
+    #information button{
+        color: blue;
+    }
+ }
